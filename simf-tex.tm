@@ -122,9 +122,8 @@
   <math|\<Phi\> = <around*|(|A,O,V,Q|)>> consists of sets of atoms (A),
   logical operators (O), variables (V) and quantifiers (Q) both over
   variables as usual in first order logic, and types as in second order
-  logic. Every sentence <math|\<Phi\> \<varepsilon\>
-  Sen<around*|(|\<Sigma\>|)>> is a member of the set of sentences over the
-  signature <math|\<Sigma\>>.\ 
+  logic. Every sentence <math|\<Phi\> \<in\> Sen<around*|(|\<Sigma\>|)>> is a
+  member of the set of sentences over the signature <math|\<Sigma\>>.\ 
 
   <image|images/sentence.png|682px|225px||>
 
@@ -142,12 +141,12 @@
   A model <math|M> = (<math|\<alpha\><rsup| M>>, <math|f<rsup| M>, p<rsup|
   M><lsup|>>) over a signature <math|\<Sigma\>> consists of a non-empty
   (carrier) set <math|\<alpha\><rsup| M>> for each type <math|\<alpha\>>
-  <math|\<varepsilon\> \ \<theta\>>, a partial function <math|f<rsup| M >from
-  > <math|w<rsup| M> to \<alpha\><rsup| M>> for each function symbol <math|f
-  \ \ \<varepsilon\> \ TF<rsub| w, \<alpha\>> or f \ \ \<varepsilon\>
-  PF<rsub| w, \<alpha\>>> and a predicate <math|p<rsup| M> \<subseteq\>
-  w<rsup| M>>for each predicate symbol <math|p \ \<varepsilon\> \ P<rsub| w>>
-  where <math|w> is the cartesian product of argument types.
+  <math|\<in\> \ \<theta\>>, a partial function <math|f<rsup| M >from >
+  <math|w<rsup| M> to \<alpha\><rsup| M>> for each function symbol <math|f
+  \ \ \<in\> \ TF<rsub| w, \<alpha\>> or f \ \ \<in\> PF<rsub| w, \<alpha\>>>
+  and a predicate <math|p<rsup| M> \<subseteq\> w<rsup| M>>for each predicate
+  symbol <math|p \ \<in\> \ P<rsub| w>> where <math|w> is the cartesian
+  product of argument types.
 
   <image|images/model.png|554px|310px||>
 
@@ -338,8 +337,8 @@
 
   Information Channel: An information channel consists of an indexed family
   <math|F = <around|{|f<rsub| i> : C<rsub| i> \<rightleftarrows\>
-  C<rprime|'>|}><rsub|i \ \<varepsilon\> I>> of infomorphisms with a common
-  codomain <math|C<rprime|'>> called the core of the channel. \ 
+  C<rprime|'>|}><rsub|i \ \<in\> I>> of infomorphisms with a common codomain
+  <math|C<rprime|'>> called the core of the channel. \ 
 
   <image|images/channel.jpg|530px|326px||>
 
